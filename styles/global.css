@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --background-color:linear-gradient(to right, #4b2e05, black);
+    --background-header: #6b3a0f;
+}

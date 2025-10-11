@@ -1,0 +1,24 @@
+@import url(global.css);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body{
+     margin: 0;
+     height: 100vh;
+     background: var(--background-color);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+header{
+     background: var(--background-header);
+    
+.title-index-html{
+     text-align: center;
+     font-size: 3rem;
+     font-family: 'Playfair Display', serif;
+     color: gold;
+     position: relative;
+     top: -20px;
+}
+
+}
+    
