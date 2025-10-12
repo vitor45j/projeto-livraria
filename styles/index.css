@@ -17,8 +17,25 @@ header{
      font-family: 'Playfair Display', serif;
      color: gold;
      position: relative;
-     top: -20px;
+     top: -60px;
 }
 
+}
+
+.usuario{
+     transform: translate(1650px, 5px);
+
+}
+
+.titulo{
+     text-align: center;
+     font-size: 3rem;
+     font-family: 'Playfair Display', serif;
+     color: white;
+     transform: translate(0, 100px);
+}
+
+.belafera{
+     transform: translate(198px, 285px);
 }
     
