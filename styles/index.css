@@ -36,6 +36,17 @@ header{
 }
 
 .belafera{
-     transform: translate(198px, 285px);
+     transform: translate(198px, 250px);
+     width: 230px;
+     height: auto;
 }
+
+
+.descriçao-belafera{
+     transform: translate(198px, 250px);
+     font-family: 'Great Vibes', cursive;
+     color: white;
+}
+
+body{ overflow-x:hidden; }
     
