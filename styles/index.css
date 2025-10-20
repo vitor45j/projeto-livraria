@@ -34,16 +34,24 @@ header{
      color: white;
      transform: translate(0, 100px);
 }
+  .container {
+  display: flex;
+  justify-content: flex-start; /* começa do lado esquerdo */
+  align-items: flex-start;     /* começa do topo */
+  height: 400px;
+  padding-top: 200px;          /* empurra pra baixo */
+  padding-left: 200px;          /* empurra pra direita */
+}
+
 
 .belafera{
-     transform: translate(198px, 250px);
      width: 230px;
      height: auto;
 }
 
 
+
 .descriçao-belafera{
-     transform: translate(198px, 250px);
      font-family: 'Great Vibes', cursive;
      color: white;
 }
