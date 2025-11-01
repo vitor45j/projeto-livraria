@@ -40,12 +40,12 @@ header{
 
 .container {
     display: flex;
-    gap: 35px;
+    gap: 100px;
     justify-content: center;
     align-items: flex-start;
     padding: 15px 40px 0 40px;
     flex-wrap: nowrap;
-    margin-bottom: 70px; 
+    margin-bottom: 10px; 
 }
 
 .belafera, .harrypotter, .detetive, .chamado{
@@ -55,7 +55,7 @@ header{
 
 .descriçao-container{
     display: flex;
-    gap: 22px;
+    gap: 100px;
     justify-content: center;
     align-items: flex-start;
     padding: 10px 40px 15px 40px;
