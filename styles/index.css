@@ -21,6 +21,8 @@ header{
     font-family: 'Playfair Display', serif;
     color: gold;
     margin: 5px 0;
+    position: relative;
+    top: -30px; /* SOBE 5 pixels */
 }
 
 .usuario{
