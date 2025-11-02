@@ -1,0 +1,82 @@
+@import url("global.css");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: var(--background-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header{
+    background: var(--background-header);
+    padding: 60px 0;
+}
+/* ========== MONITORES FULL HD 1280x720 ========== */
+.title-index-html{
+    text-align: center;
+    font-size: 3.0rem;
+    font-family: 'Playfair Display', serif;
+    color: gold;
+    margin: 5px 0;
+    position: relative;
+    top: 20px;
+}
+
+.usuario{
+    position: absolute;
+    top: 5px;
+    right: 1%;
+    width: auto;
+}
+
+.config{
+    position: absolute;
+    top: 5px;
+    left: 1%;
+    width: auto;
+}
+.descricao-belafera{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0px 0px 100px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px 0px 0px 100px;
+}
+
+.sinopse-belafera{
+    display: flex;
+    justify-content: flex-end;
+    margin: -350px -100px 0px 600px;
+    color: white;
+    font-family: Inknut Antiqua;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: justify;
+    vertical-align: middle;
+    max-width: 600px;
+}
+
+.star-group{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0px;
+    margin-right: 500px;
+    margin-left: 600px; ;
+    margin-bottom: 0px;
+
+    
+}
