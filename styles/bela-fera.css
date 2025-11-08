@@ -11,72 +11,79 @@ body{
 }
 
 header{
+    position: relative;
     background: var(--background-header);
     padding: 60px 0;
 }
-/* ========== MONITORES FULL HD 1280x720 ========== */
+
 .title-index-html{
     text-align: center;
     font-size: 3.0rem;
     font-family: 'Playfair Display', serif;
     color: gold;
-    margin: 5px 0;
-    position: relative;
-    top: 20px;
+    margin: 25px 0 0 0;
 }
 
 .usuario{
     position: absolute;
     top: 5px;
     right: 1%;
-    width: auto;
 }
 
 .config{
     position: absolute;
     top: 5px;
     left: 1%;
-    width: auto;
-}
-.descricao-belafera{
-    display: flex;
-    justify-content: flex-start;
-    padding: 20px 0px 0px 100px;
-    color: white;
-    font-weight: bold;
-    
 }
 
 .container{
-    display: flex;
-    justify-content: flex-start;
-    padding: 30px 0px 0px 100px;
+    position: absolute;
+    left: 50px;
+    top: 250px;
 }
 
-.sinopse-belafera{
-    display: flex;
-    justify-content: flex-end;
-    margin: -350px -100px 0px 600px;
-    color: white;
-    font-family: Inknut Antiqua;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 15px;
-    leading-trim: NONE;
-    line-height: 30px;
-    letter-spacing: 0%;
-    text-align: justify;
-    vertical-align: middle;
-    max-width: 600px;
+.belafera{
+    width: 200px;  /* Ajuste o tamanho que quiser */
 }
 
 .star-group{
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 0px;
-    margin-right: 500px;
-    margin-left: 600px; ;
-    margin-bottom: 0px;
+   display: flex;
+   align-items: flex-start;
+   margin-left: 300px;
+   padding-top: 50px;
+   gap: 5px;
+   
+   
+  
 
+}
+
+.numero-notas{
+    position: relative;
+    bottom: 6px;
+    font-family: 'Playfair Display', serif;
+    color: gold;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.descricao-belafera{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+    margin-left: 50px;
     
+}
+
+.sinopse-belafera{
+    position: relative;
+    margin-left: 300px;
+    color: white;
+    font-family: 'Inknut Antiqua';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+    max-width: 700px;
 }
