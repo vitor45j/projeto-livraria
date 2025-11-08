@@ -87,3 +87,147 @@ header{
     text-align: justify;
     max-width: 700px;
 }
+.comentarios-section {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.comentario-destaque {
+    background: rgba(139, 90, 43, 0.8);
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    color: white;
+    margin-left: 300px;
+
+}
+
+.comentario-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.comentario-autor {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: gold;
+}
+
+.comentario-curtidas {
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+.comentario-texto {
+    font-family: 'Inknut Antiqua';
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    text-align: justify;
+}
+
+.btn-todos-comentarios {
+    background: gold;
+    color: #5c3a21;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    border-radius: 8px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: transform 0.2s;
+}
+
+.btn-todos-comentarios:hover {
+    transform: scale(1.05);
+}
+
+/* Media Query para resolução 1920x1080 */
+@media screen and (min-width: 1281px) {
+    
+    header {
+        padding: 78px 0;
+    }
+    
+    .title-index-html {
+        font-size: 3.9rem;
+        margin: 32.5px 0 0 0;
+    }
+    
+    .usuario {
+        top: 6.5px;
+        right: 1%;
+    }
+    
+    .config {
+        top: 6.5px;
+        left: 1%;
+    }
+    
+    .container {
+        left: 65px;
+        top: 325px;
+    }
+    
+    .belafera {
+        width: 260px;
+    }
+    
+    .star-group {
+        margin-left: 390px;
+        padding-top: 65px;
+        gap: 6.5px;
+    }
+    
+    .numero-notas {
+        font-size: 2.6rem;
+        bottom: 7.8px;
+    }
+    
+    .descricao-belafera {
+        margin-left: 65px;
+        font-size: 1.15rem;
+    }
+    
+    .sinopse-belafera {
+        margin-left: 390px;
+        font-size: 19.5px;
+        line-height: 39px;
+        max-width: 1000px;
+    }
+    
+    .comentarios-section {
+        bottom: 26px;
+        left: 65px;
+        gap: 26px;
+    }
+    
+    .comentario-destaque {
+        width: 900px;
+        padding: 20px;
+        margin-left: 390px;
+    }
+    
+    .comentario-autor {
+        font-size: 1.43rem;
+    }
+    
+    .comentario-texto {
+        font-size: 18.2px;
+        line-height: 2.08;
+    }
+    
+    .btn-todos-comentarios {
+        padding: 19.5px 39px;
+        font-size: 20.8px;
+    }
+}
