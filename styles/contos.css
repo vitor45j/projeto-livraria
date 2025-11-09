@@ -1,0 +1,235 @@
+@import url("global.css");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: var(--background-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header{
+    position: relative;
+    background: var(--background-header);
+    padding: 60px 0;
+}
+
+.title-index-html{
+    text-align: center;
+    font-size: 3.0rem;
+    font-family: 'Playfair Display', serif;
+    color: gold;
+    margin: 25px 0 0 0;
+}
+
+.usuario{
+    position: absolute;
+    top: 5px;
+    right: 1%;
+}
+
+.config{
+    position: absolute;
+    top: 5px;
+    left: 1%;
+}
+
+.container{
+    position: absolute;
+    left: 50px;
+    top: 250px;
+}
+
+.contos{
+    width: 200px;  /* Ajuste o tamanho que quiser */
+}
+
+.star-group{
+   display: flex;
+   align-items: flex-start;
+   margin-left: 300px;
+   padding-top: 50px;
+   gap: 5px;
+   
+   
+  
+
+}
+
+.numero-notas{
+    position: relative;
+    bottom: 6px;
+    font-family: 'Playfair Display', serif;
+    color: gold;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.descricao-contos{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+    margin-left: 50px;
+    margin-top: 100px;
+    
+}
+
+.sinopse-contos{
+    position: relative;
+    margin-left: 300px;
+    color: white;
+    font-family: 'Inknut Antiqua';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+    max-width: 700px;
+}
+.comentarios-section {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.comentario-destaque {
+    background: rgba(139, 90, 43, 0.8);
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    color: white;
+    margin-left: 300px;
+
+}
+
+.comentario-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.comentario-autor {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: gold;
+}
+
+.comentario-curtidas {
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+.comentario-texto {
+    font-family: 'Inknut Antiqua';
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    text-align: justify;
+}
+
+.btn-todos-comentarios {
+    background: gold;
+    color: #5c3a21;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    border-radius: 8px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: transform 0.2s;
+}
+
+.btn-todos-comentarios:hover {
+    transform: scale(1.05);
+}
+
+/* Media Query para resolução 1920x1080 */
+@media screen and (min-width: 1281px) {
+    
+    header {
+        padding: 78px 0;
+    }
+    
+    .title-index-html {
+        font-size: 3.9rem;
+        margin: 32.5px 0 0 0;
+    }
+    
+    .usuario {
+        top: 6.5px;
+        right: 1%;
+    }
+    
+    .config {
+        top: 6.5px;
+        left: 1%;
+    }
+    
+    .container {
+        left: 65px;
+        top: 325px;
+    }
+    
+    .contos {
+        width: 260px;
+    }
+    
+    .star-group {
+        margin-left: 390px;
+        padding-top: 65px;
+        gap: 6.5px;
+    }
+    
+    .numero-notas {
+        font-size: 2.6rem;
+        bottom: 7.8px;
+    }
+    
+    .descricao-contos {
+        margin-left: 65px;
+        font-size: 1.15rem;
+        margin-top: 120px;
+    }
+    
+    .sinopse-contos {
+        margin-left: 390px;
+        font-size: 19.5px;
+        line-height: 39px;
+        max-width: 1000px;
+    }
+    
+    .comentarios-section {
+        bottom: 26px;
+        left: 65px;
+        gap: 26px;
+    }
+    
+    .comentario-destaque {
+        width: 900px;
+        padding: 20px;
+        margin-left: 390px;
+    }
+    
+    .comentario-autor {
+        font-size: 1.43rem;
+    }
+    
+    .comentario-texto {
+        font-size: 18.2px;
+        line-height: 2.08;
+    }
+    
+    .btn-todos-comentarios {
+        padding: 19.5px 39px;
+        font-size: 20.8px;
+    }
+}
